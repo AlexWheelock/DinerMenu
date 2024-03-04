@@ -28,13 +28,15 @@ Partial Class DinerMenuForm
         Me.SaladButton = New System.Windows.Forms.Button()
         Me.FishButton = New System.Windows.Forms.Button()
         Me.ExitButton = New System.Windows.Forms.Button()
+        Me.SidesButton = New System.Windows.Forms.Button()
+        Me.DessertsButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'DinerNameLabel
         '
         Me.DinerNameLabel.AutoSize = True
         Me.DinerNameLabel.Font = New System.Drawing.Font("Palatino Linotype", 20.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DinerNameLabel.Location = New System.Drawing.Point(130, 9)
+        Me.DinerNameLabel.Location = New System.Drawing.Point(212, 9)
         Me.DinerNameLabel.Name = "DinerNameLabel"
         Me.DinerNameLabel.Size = New System.Drawing.Size(265, 37)
         Me.DinerNameLabel.TabIndex = 0
@@ -46,15 +48,16 @@ Partial Class DinerMenuForm
         '
         Me.DisplaySpecialLabel.AutoSize = True
         Me.DisplaySpecialLabel.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DisplaySpecialLabel.Location = New System.Drawing.Point(233, 65)
+        Me.DisplaySpecialLabel.Location = New System.Drawing.Point(8, 59)
         Me.DisplaySpecialLabel.Name = "DisplaySpecialLabel"
         Me.DisplaySpecialLabel.Size = New System.Drawing.Size(56, 22)
         Me.DisplaySpecialLabel.TabIndex = 1
         Me.DisplaySpecialLabel.Text = "Label2"
+        Me.DisplaySpecialLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'SoupButton
         '
-        Me.SoupButton.Location = New System.Drawing.Point(12, 288)
+        Me.SoupButton.Location = New System.Drawing.Point(12, 311)
         Me.SoupButton.Name = "SoupButton"
         Me.SoupButton.Size = New System.Drawing.Size(90, 48)
         Me.SoupButton.TabIndex = 0
@@ -63,7 +66,7 @@ Partial Class DinerMenuForm
         '
         'SaladButton
         '
-        Me.SaladButton.Location = New System.Drawing.Point(108, 288)
+        Me.SaladButton.Location = New System.Drawing.Point(108, 311)
         Me.SaladButton.Name = "SaladButton"
         Me.SaladButton.Size = New System.Drawing.Size(90, 48)
         Me.SaladButton.TabIndex = 1
@@ -72,7 +75,7 @@ Partial Class DinerMenuForm
         '
         'FishButton
         '
-        Me.FishButton.Location = New System.Drawing.Point(204, 288)
+        Me.FishButton.Location = New System.Drawing.Point(204, 311)
         Me.FishButton.Name = "FishButton"
         Me.FishButton.Size = New System.Drawing.Size(90, 48)
         Me.FishButton.TabIndex = 2
@@ -82,19 +85,39 @@ Partial Class DinerMenuForm
         'ExitButton
         '
         Me.ExitButton.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.ExitButton.Location = New System.Drawing.Point(423, 288)
+        Me.ExitButton.Location = New System.Drawing.Point(571, 311)
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(90, 48)
-        Me.ExitButton.TabIndex = 3
+        Me.ExitButton.TabIndex = 5
         Me.ExitButton.Text = "E&xit"
         Me.ExitButton.UseVisualStyleBackColor = True
+        '
+        'SidesButton
+        '
+        Me.SidesButton.Location = New System.Drawing.Point(300, 311)
+        Me.SidesButton.Name = "SidesButton"
+        Me.SidesButton.Size = New System.Drawing.Size(90, 48)
+        Me.SidesButton.TabIndex = 3
+        Me.SidesButton.Text = "Sides"
+        Me.SidesButton.UseVisualStyleBackColor = True
+        '
+        'DessertsButton
+        '
+        Me.DessertsButton.Location = New System.Drawing.Point(396, 311)
+        Me.DessertsButton.Name = "DessertsButton"
+        Me.DessertsButton.Size = New System.Drawing.Size(90, 48)
+        Me.DessertsButton.TabIndex = 4
+        Me.DessertsButton.Text = "Desserts"
+        Me.DessertsButton.UseVisualStyleBackColor = True
         '
         'DinerMenuForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.ExitButton
-        Me.ClientSize = New System.Drawing.Size(525, 348)
+        Me.ClientSize = New System.Drawing.Size(673, 371)
+        Me.Controls.Add(Me.DessertsButton)
+        Me.Controls.Add(Me.SidesButton)
         Me.Controls.Add(Me.ExitButton)
         Me.Controls.Add(Me.FishButton)
         Me.Controls.Add(Me.SaladButton)
@@ -114,4 +137,6 @@ Partial Class DinerMenuForm
     Friend WithEvents SaladButton As Button
     Friend WithEvents FishButton As Button
     Friend WithEvents ExitButton As Button
+    Friend WithEvents SidesButton As Button
+    Friend WithEvents DessertsButton As Button
 End Class
