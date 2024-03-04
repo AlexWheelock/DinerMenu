@@ -48,11 +48,10 @@ Partial Class DinerMenuForm
         '
         Me.DisplaySpecialLabel.AutoSize = True
         Me.DisplaySpecialLabel.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DisplaySpecialLabel.Location = New System.Drawing.Point(8, 59)
+        Me.DisplaySpecialLabel.Location = New System.Drawing.Point(250, 58)
         Me.DisplaySpecialLabel.Name = "DisplaySpecialLabel"
-        Me.DisplaySpecialLabel.Size = New System.Drawing.Size(56, 22)
+        Me.DisplaySpecialLabel.Size = New System.Drawing.Size(0, 22)
         Me.DisplaySpecialLabel.TabIndex = 1
-        Me.DisplaySpecialLabel.Text = "Label2"
         Me.DisplaySpecialLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'SoupButton
