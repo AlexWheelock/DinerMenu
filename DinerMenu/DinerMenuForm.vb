@@ -47,7 +47,7 @@ Public Class DinerMenuForm
             & "Breaded Halibut - A fresh fillet of halibut that is seasoned, battered, and then deep fried." & vbCrLf _
             & "Served with our homemade pina colada sauce, and two sides. - $16.00" & vbCrLf _
             & vbCrLf _
-            & "Fish & Chips - Cutlets of Cod, seasoned, and beer batter deep fried with our delicious french fries!" & vbCrLf _
+            & "Fish & Chips - Cutlets of Cod, seasoned, and beer batter deep fried with our delicious French fries!" & vbCrLf _
             & "Served with tartar sauce and two sides. - $12.00")
     End Sub
 
@@ -56,14 +56,14 @@ Public Class DinerMenuForm
         DisplaySpecialLabel.Location = New Point(29, 58)
         DisplaySpecialLabel.Text = ("Salad" & vbCrLf _
             & vbCrLf _
-            & "Caesar Salad - Fresh romaine lettuce with a creamy caesar dressing and parmesan cheese," & vbCrLf _
-            & "with seasoned croutons. - $10.00 (Add chicken for an additional $2.00)" & vbCrLf _
+            & "Caesar Salad - Fresh romaine lettuce with a creamy Caesar dressing and Parmesan cheese," & vbCrLf _
+            & "with seasoned croûtons. - $10.00 (Add chicken for an additional $2.00)" & vbCrLf _
             & vbCrLf _
             & "House Salad - A fresh house salad with iceberg lettuce, onion, cheese, ham, a sliced egg," & vbCrLf _
             & "and diced tomato. Served with a dressing of your choice. - $9.00" & vbCrLf _
             & vbCrLf _
             & "Italian Salad - Fresh romaine lettuce, radicchio, sliced onion, sliced tomato, black olives," & vbCrLf _
-            & "with croutons, parmesan cheese, served with our homemade italian dressing. - $12.00")
+            & "with croûtons, Parmesan cheese, served with our homemade Italian dressing. - $12.00")
     End Sub
 
     'when the sides button is clicked, it will display the soup menu, changing the display text and position
